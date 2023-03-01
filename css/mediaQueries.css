@@ -1,0 +1,158 @@
+
+
+body{
+    font-family: sans-serif; 
+    font-size: 110%; 
+    background-color: ghostwhite;
+    display: flex; 
+    flex-direction: column;
+    width: 100%; 
+    position: relative; 
+    left: 0px; 
+    margin: 0; 
+    
+}
+
+.main{
+display: block;
+flex-direction: row;
+overflow: unset; 
+
+}
+
+#profilePhoto{
+  width: 15%;  
+  height: 15%;
+  border-radius: 60%;
+  border: 5px solid orange;
+
+}
+
+.nav-Menu{
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+}
+
+.menu_heading{
+    background-color: orange;
+    padding: 1rem;
+    text-align: center;
+}
+header{
+    text-align: center; 
+    background-color: darkgrey; 
+    width: 100%;
+    justify-content: center;
+
+}
+
+#heading{
+    font-family: sans-serif; 
+    font-size: 110%; 
+    background-color: darkgray;
+
+}
+
+#sidebar{
+    width: 100%; 
+    background-color: orange;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+
+}
+
+.navMenu{
+    list-style-type: none;
+    text-align: center ;
+    background-color: orange;
+    padding: 15%;
+    margin: 2%;
+
+}
+
+footer{
+    text-align: center; 
+    background-color: darkgrey; 
+    width: 100%;
+
+}
+
+#footer{
+    font-family: sans-serif; 
+    font-size: 110%; 
+    background-color: darkgray;
+
+}
+
+.image{
+    width: 4rem;
+    margin: 1rem;
+
+}
+
+h2{
+    font-size: 40px;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+
+}
+
+#content{
+    position: relative;
+left: 15px;
+}
+
+
+h3{
+    padding-left: 25px;
+}
+
+p{
+     padding-left: 25px;
+}
+
+
+@keyframes images {
+    
+    0% {transform: rotate(90deg);
+
+        }
+    25% {transform: rotate(180deg);
+        }
+        
+    50% {transform: rotate(270deg);
+        transform: translate(100px);
+        }    
+    75% {transform: rotate(360deg);
+        }
+        
+    100% {transform: scale(50%);
+        filter: grayscale(100%);
+        } 
+
+}
+
+
+.images {
+    width: 7%;
+    height: 7%;
+    
+}
+
+.images:hover {
+    animation-duration: 5s;
+    animation-name: images;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+
+
