@@ -14,7 +14,7 @@ body{
 }
 
 .main{
-display: block;
+display: inline-block;
 flex-direction: row;
 overflow: unset; 
 
@@ -39,7 +39,9 @@ overflow: unset;
 
 .menu_heading{
     background-color: orange;
-    padding: 1rem;
+    width: ;
+    padding-left: auto;
+    padding-right: auto;
     text-align: center;
 }
 header{
@@ -66,7 +68,7 @@ header{
 
 }
 
-.navMenu{
+.nav-Menu{
     list-style-type: none;
     text-align: center ;
     background-color: orange;
@@ -98,7 +100,8 @@ footer{
 h2{
     font-size: 40px;
     background-color: #ccc;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 40px;
 
 }
@@ -155,4 +158,57 @@ p{
 }
 
 
+.content {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    margin: 5px;
 
+}
+
+@media screen and (max-width:630px) {
+    .content{
+        display: inline-block;
+        width: 75%;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        #bottom {
+            width: 75%;
+        }
+
+
+    }
+    
+}
+
+@media screen and (max-width:890px){
+    .content{
+        display: inline-block;
+        width: 45%;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        #bottom {
+            width: 90%;
+        };
+    }
+    
+}
+
+@media screen and (max-width:1400px){
+    .content{
+        display: inline-block;
+        width: 90%;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bottom{
+        width: 90%;
+    }
+    
+} 
+
+    
