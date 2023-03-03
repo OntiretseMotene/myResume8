@@ -119,43 +119,5 @@ footer{
 }
 
 
-@media screen and (max-width:600px) {
-    .content{
-        display: inline-block;
-        width: 75%;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        #bottom {
-            width: 75%;
-        }
-    }  
-}
-
-@media screen and (max-width:900px){
-    .content{
-        display: inline-block;
-        width: 45%;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        #bottom {
-            width: 90%;
-        };
-    }
-    
-}
-
-@media screen and (max-width:1200px){
-    .content{
-        display: inline-block;
-        width: 90%;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        #bottom{
-        width: 90%;
-    }
-    
-} 
+ 
 
