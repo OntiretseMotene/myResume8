@@ -1,22 +1,23 @@
-
 <!DOCTYPE html> <!--this tag declares start of html code-->
 <html lang="en"> <!--This tag is used to specify the language of the document, in this case, English.-->
+
 
   <head>
       <meta charset=utf-8> <!--This tag specifies the character encoding used in the document.-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This line of code sets the viewport width to the device's screen width and sets the initial zoom level.-->
-      
-      
+     
+     
      <title>Ontiretse's Digital Resume 8</title> <!--This tag specifies the title of my HTML page-->
      
      <link rel="stylesheet" type="text/css" href="css/stylesheet.css"> <!--his element contains a link to a CSS file.-->
   </head>
 
-  <body class="main" > <!--This element contains the content of the document that we can see on the web page, it's given a class name "main"-->
-   <div class="grid-container"> <!--The div tag is used to create a container for other elements, in this case its used as a grid container.-->
 
-      <div class="header-content"> 
-        <header class="header">
+
+  <body class="main" > <!--This element contains the content of the document that we can see on the web page, it's given a class name "main"-->
+
+
+        <header class="heading">
           <P>
          <img src="images/profilePhoto.jpg" alt="profilePhoto" id="profilePhoto"> <!--This code displays my profile photo.-->
           </P>
@@ -27,8 +28,8 @@
          <P>
         </header>
       </div>
-          
-      <div class="background-image-content">
+         
+      
       <div class="my-css-page styles" style="background-image: url(images/pictureElement.jpg);">
           <picture>
             <source media="(max-width: 600px)" srcset="images/pictireElement_small.jpg"> <!--This code specifies an image for small screen sizes.-->
@@ -36,51 +37,52 @@
             <img src="images/pictureElement.jpg" alt="pictureElement"> <!--This code specifies the default image-->
           </picture>
       </div>
-      </div>
       
      
-      <div class="nav-content"> <!--This tag defines the navigation section of the document.-->
-        <nav>
-            <ul class="nav-Menu"> 
+     
+      
+      <div id="sidebar">
+         <nav>
+           <h2 class="menu_heading">Menu</h2>
+            <ul id="nav-Menu">
               <li>  <a href="#education">Education</a></li>
               <li>  <a href="#experience">Experience</a></li>
               <li>  <a href="#skills">Skills</a></li>
             </ul>
-        </nav>
+         </nav>
       </div>
-        
-      <div class="education-content"> <!--This tag contains my education background-->
-        <p>
+     
+      <p>
          <h2 class="education">Education</h2>
-         <h3> Intro To Web at <a href="http://codespace.co.za/">CodeSpace Academy</a></h3>
+         <h3> Intro To Web at <a href="http://codespace.co.za/">CodeSpace Academy</a></h3> <!--This anchor tag contains a href attribute that links a website -->
           <p>Software engineering student</p>
          <h3> North West University</h3>  
           <p>B.Ed (Technica) Graduate</p>
           <h3> Tlhabane Technical and Commercial High School</h3>  
           <p>Nationa Senior Certificate</p>
-        </p>
-      </div>
-
-      <div class="experience-content"> <!--This tag contains my work experience-->
-          <p>
+      </p>
+     
+        <p>
            <h2 class="experience">Experience</h2>
            <h3>Course Manager and Facilitator at Bafokeng CodeLab</h3>
-          </p>
+        </p>
 
-          <p>
+
+        <p>
             <ul> <!--This tag specifies an unordered list of items-->
                 <li>Facilitates a group 51 students who are taking a Software Development and Engineerng course</li>
                 <li>Manages the Bafokeng Conference Centre facility</li>
                 <li>Manages the Royal Impact assets and resources for the Bafokeng CodeLab</li>
             </ul>
-          </p>
-      </div>    
+        </p>
+         
 
-      <div class="skills-content"> <!--This tag contains my skills-->
+
+     
         <p>
           <h2 class="skills">Skills</h2>
         </p>
-          <p>
+        <p>
             <ul>
               <li>HTML</li>
               <li>CSS </li>
@@ -88,14 +90,13 @@
             </ul>
           </p>
       </div>
-   </div> 
-  </body> <!--this tag is the body closing tag--> 
    
+  </body> <!--this tag is the body closing  tag-->
+   
+
 
   <div class="footer-content" id="bottom"> <!--This div tag and class attribute specifies the footer content of my page and the id attribute species a unique identifier that may take priority.-->
     <footer class="footer">
-          
-      <h3>Contact Details</h3>
              
         <link rel="stylesheet" type="text/css" href="images/linkedin_icon.png">
         <link rel="stylesheet" type="text/css" href="images/whatsapp_business_icon.png">
@@ -113,7 +114,7 @@
           </a>
         </ul>
          
-    </footer> 
+    </footer>
   </div>
-  
+</div>
 </html> <!--This is the HTML closing tag-->

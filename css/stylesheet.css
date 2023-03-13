@@ -1,97 +1,119 @@
-
 body {
     font-family: sans-serif;
     font-size: 110%;
     background-color: ghostwhite;
     width: 100%;
-    left: 0px;
-    right: 0px;
     margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
-  
-  .main {
+
+
+.main {
     display: flex;
     flex-direction: column;
     overflow: unset;
-    align-items: center;
-  }
-  
-  .header {
+}
+ 
+.heading {
     text-align: center;
     background-color: darkgray;
     align-items: center;
+    width: 100%;
   }
-  
-  .profilePhoto {
+ 
+#profilePhoto {
     width: 15%;
     height: 15%;
     border-radius: 60%;
     border: 5px solid orange;
   }
-  
-  .background-image-content {
-    width: 100%;
-  }
-  
-  .nav-Menu {
-    ul {
+ 
+#sidebar{
+    width: 15%;
+    background-color: orange;
+    padding: 1rem;
+    color: black;
+    
+}
+
+
+.nav-Menu{
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      height: 100px;
+      background-color: orange;
+   
+}
+
+
+#sidebar ul{
       list-style-type: none;
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      width: 25%;
+      position: fixed;
+      overflow: auto;
     }
-  
+   
     li {
-      float: center;
+      float: left;
     }
-  
+ 
     li a {
       display: block;
       color: black;
       text-align: center;
       padding: 14px 16px;
+      text-decoration: none;
     }
-  
+ 
     li a:hover {
       background-color: orange;
     }
-  }
-  
-  h2 {
+
+ 
+h2 {
     font-size: 40px;
     background-color: darkgray;
     width: 100%;
-    margin: 0;
-    padding: 40px;
-  }
-  
-  h3 {
-    padding-left: 25px;
-  }
-  
-  p {
-    padding-left: 25px;
-  }
-  
-  .grid-container > div {
-    background-color: white;
-  }
-  
-  footer {
+    padding: 20px;
+   
+}
+ 
+h3 {
+    padding: 25px;
+}
+ 
+p {
+    padding-left: 20px;
+}
+ 
+ 
+ 
+footer {
     text-align: center;
     background-color: darkgrey;
     width: 100%;
-    left: 15px;
-    right: 15px;
-  }
-  
-  .footer {
+    margin: 20px;
+    padding: 20px;
+   
+}
+ 
+.footer {
     font-family: sans-serif;
     font-size: 110%;
     background-color: darkgray;
-  }
-  
-  @keyframes icons {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+   
+}
+ 
+@keyframes icons {
     0% {
       transform: rotate(90deg);
     }
@@ -99,7 +121,7 @@ body {
       transform: rotate(180deg);
     }
     50% {
-      transform: rotate(270deg) translate(100px);
+      transform: rotate(270deg) translate(60px);
     }
     75% {
       transform: rotate(360deg);
@@ -108,21 +130,20 @@ body {
       transform: scale(50%);
       filter: grayscale(100%);
     }
-  }
-  
-  .icons {
+}
+ 
+.icons {
     width: 7%;
     height: 7%;
-  }
-  
-  .icons:hover {
+    margin: 1.5rem;
+   
+}
+ 
+.icons:hover {
     animation-duration: 5s;
     animation-name: icons;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction: alternate;
     cursor: pointer;
-  }
-
- 
-
+}
